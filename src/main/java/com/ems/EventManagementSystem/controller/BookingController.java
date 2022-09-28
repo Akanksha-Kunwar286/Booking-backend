@@ -23,7 +23,7 @@ import com.ems.EventManagementSystem.service.BookingService;
 @RequestMapping("/api/booking")
 public class BookingController {
 	
-	private static final long Id = 0;
+//	private static final long Id = 0;
 	private BookingService bookingservice;
 
 	public BookingController(BookingService bookingservice) {
